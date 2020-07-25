@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "tuto:tuto_ingot"
+        }
+    },
+    "result": {
+        "item": "tuto:block_tuto",
+        "count": 3
+    }
+}

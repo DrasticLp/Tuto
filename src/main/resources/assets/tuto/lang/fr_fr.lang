@@ -1,0 +1,12 @@
+item.tuto_ingot.name=Lingot de Tuto
+tile.block_tuto.name=Block de Tuto
+item.tuto_sword.name=Épée en Tuto
+item.tuto_shovel.name=Pelle en Tuto
+item.tuto_axe.name=Hache en Tuto
+item.tuto_pickaxe.name=Pioche en Tuto
+item.tuto_helmet.name=Casque en Tuto
+item.tuto_chestplate.name=Plastron en Tuto
+item.tuto_leggings.name=Pantalon en Tuto
+item.tuto_boots.name=Bottes en Tuto
+itemGroup.tuto=Tuto
+itemGroup.tuto2=Tuto2

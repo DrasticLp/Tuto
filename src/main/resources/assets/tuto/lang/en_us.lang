@@ -1,0 +1,12 @@
+item.tuto_ingot.name=Tuto Ingot
+tile.block_tuto.name=Tuto Block
+item.tuto_sword.name=Tuto Sword
+item.tuto_shovel.name=Tuto Shovel
+item.tuto_axe.name=Tuto Axe
+item.tuto_pickaxe.name=Tuto Pickaxe
+item.tuto_helmet.name=Tuto Helmet
+item.tuto_chestplate.name=Tuto Chestplate
+item.tuto_leggings.name=Tuto Leggings
+item.tuto_boots.name=Tuto Boots
+itemGroup.tuto=Tuto
+itemGroup.tuto2=Tuto2

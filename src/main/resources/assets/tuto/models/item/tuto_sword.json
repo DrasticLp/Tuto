@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures":
+    {
+        "layer0": "tuto:items/tuto_sword"
+    }
+}
