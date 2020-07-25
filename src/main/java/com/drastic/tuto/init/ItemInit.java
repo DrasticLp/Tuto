@@ -23,7 +23,8 @@ public class ItemInit
     public static List<Item> ITEMS = new ArrayList<Item>();
     
     //ToolMaterials
-    public static final ToolMaterial TOOL_TUTO = EnumHelper.addToolMaterial("tuto_tool", 5, 2500, 25.0f, 12.0f, 18);
+    public static final ToolMaterial TOOL_TUTO = EnumHelper.addToolMaterial("tuto_tool", 5, 2500, 25.0f, 1.0f, 18);
+    public static final ToolMaterial SWORD_TOOL_TUTO = EnumHelper.addToolMaterial("tuto_tool", 5, 2500, 25.0f, 12.0f, 18);
     
     //ArmorMaterials
     public static final ArmorMaterial ARMOR_TUTO = EnumHelper.addArmorMaterial("armor_tuto", Reference.MODID + ":tuto", 75, new int[] {3, 5, 4, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f);
@@ -34,7 +35,7 @@ public class ItemInit
     //Tools
     public static final Item TUTO_PICKAXE = new ItemPickaxeMod("tuto_pickaxe", TOOL_TUTO);
     public static final Item TUTO_SHOVEL = new ItemShovelMod("tuto_shovel", TOOL_TUTO);
-    public static final Item TUTO_SWORD = new ItemSwordMod("tuto_sword", TOOL_TUTO);
+    public static final Item TUTO_SWORD = new ItemSwordMod("tuto_sword", SWORD_TOOL_TUTO);
     public static final Item TUTO_AXE = new ItemAxeMod("tuto_axe", TOOL_TUTO);
     
     //Armors
