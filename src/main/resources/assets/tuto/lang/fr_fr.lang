@@ -11,3 +11,7 @@ item.tuto_boots.name=Bottes en Tuto
 itemGroup.tuto=Tuto
 itemGroup.tuto2=Tuto2
 tile.ore_tuto.name=Minerai de Tuto
+message.item.special.right.click=Vous avez été frappé par un effet de potion
+item.tuto_stick.name=Bâton de Tuto
+tile.tuto_block_special.name=Block de Tuto Spécial
+item.staff.name=Bâton du Pouvoir

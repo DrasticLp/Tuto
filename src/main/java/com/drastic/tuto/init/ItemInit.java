@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.drastic.tuto.objects.items.ItemBase;
+import com.drastic.tuto.objects.items.ItemSpecial;
 import com.drastic.tuto.objects.items.armor.ArmorMod;
 import com.drastic.tuto.objects.items.tools.ItemAxeMod;
 import com.drastic.tuto.objects.items.tools.ItemPickaxeMod;
@@ -43,4 +44,7 @@ public class ItemInit
     public static final Item TUTO_CHESTPLATE = new ArmorMod("tuto_chestplate", ARMOR_TUTO, 1, EntityEquipmentSlot.CHEST);
     public static final Item TUTO_LEGGINGS = new ArmorMod("tuto_leggings", ARMOR_TUTO, 2, EntityEquipmentSlot.LEGS);
     public static final Item TUTO_BOOTS = new ArmorMod("tuto_boots", ARMOR_TUTO, 1, EntityEquipmentSlot.FEET);
+    
+    //Specials
+    public static final Item TUTO_STICK = new ItemSpecial("tuto_stick");
 }

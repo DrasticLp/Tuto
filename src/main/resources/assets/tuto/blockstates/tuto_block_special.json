@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "normal":
+        {
+            "model": "tuto:tuto_block_special"
+        }
+    }
+}
