@@ -1,8 +1,12 @@
 package com.drastic.tuto.proxy;
 
+import com.drastic.tuto.guis.GuiRadar;
+
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.common.MinecraftForge;
 
 public class ClientProxy extends CommonProxy
 {
@@ -10,6 +14,8 @@ public class ClientProxy extends CommonProxy
     public void registerItemRenderer(Item item, int meta)
     {
         ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+        MinecraftForge.EVENT_BUS.register(new GuiRadar());
+
     }
     
     @Override
@@ -31,5 +37,10 @@ public class ClientProxy extends CommonProxy
     {
         // TODO Auto-generated method stub
         super.preInit();
+    }
+    
+    @Override
+    public void registerGuis()
+    {
     }
 }

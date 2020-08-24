@@ -1,0 +1,34 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "tuto:items/radar_empty"
+    },
+    "overrides": [
+        { "predicate": { "percent": 1 }, "model": "tuto:item/radar0_5" },
+        { "predicate": { "percent": 2 }, "model": "tuto:item/radar0_5" },
+        { "predicate": { "percent": 3 }, "model": "tuto:item/radar0_5" },
+        { "predicate": { "percent": 4 }, "model": "tuto:item/radar0_5" },
+        { "predicate": { "percent": 5 }, "model": "tuto:item/radar0_5" },
+        { "predicate": { "percent": 6 }, "model": "tuto:item/radar6_10" },
+        { "predicate": { "percent": 7 }, "model": "tuto:item/radar6_10" },
+        { "predicate": { "percent": 8 }, "model": "tuto:item/radar6_10" },
+        { "predicate": { "percent": 9 }, "model": "tuto:item/radar6_10" },
+        { "predicate": { "percent": 10 }, "model": "tuto:item/radar6_10" },
+        { "predicate": { "percent": 11 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 12 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 13 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 14 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 15 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 16 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 17 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 18 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 19 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 20 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 21 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 22 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 23 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 24 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 25 }, "model": "tuto:item/radar11_25" },
+        { "predicate": { "percent": 26 }, "model": "tuto:item/radar26_more" }
+   ]
+}

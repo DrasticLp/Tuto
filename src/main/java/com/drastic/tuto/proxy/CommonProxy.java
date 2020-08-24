@@ -19,6 +19,11 @@ public class CommonProxy
         
     }
     
+    public void registerGuis()
+    {
+        
+    }
+    
     public void preInit()
     {
         
