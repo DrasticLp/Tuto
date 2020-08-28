@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "normal":
+        {
+            "model": "tuto:cave_block"
+        }
+    }
+}

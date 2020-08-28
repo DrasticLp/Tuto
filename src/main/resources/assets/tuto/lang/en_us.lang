@@ -16,3 +16,5 @@ item.tuto_stick.name=Tuto Stick
 tile.tuto_block_special.name=Block de Tuto Spécial
 item.staff.name=Power Staff
 item.radar.name=Radar
+tile.cave_block.name=Cave Block
+item.hammer.name=Hammer

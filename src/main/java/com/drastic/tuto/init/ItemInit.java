@@ -8,6 +8,7 @@ import com.drastic.tuto.objects.items.ItemRadar;
 import com.drastic.tuto.objects.items.ItemSpecial;
 import com.drastic.tuto.objects.items.armor.ArmorMod;
 import com.drastic.tuto.objects.items.tools.ItemAxeMod;
+import com.drastic.tuto.objects.items.tools.ItemHammer;
 import com.drastic.tuto.objects.items.tools.ItemPickaxeMod;
 import com.drastic.tuto.objects.items.tools.ItemShovelMod;
 import com.drastic.tuto.objects.items.tools.ItemSwordMod;
@@ -40,6 +41,8 @@ public class ItemInit
     public static final Item TUTO_SWORD = new ItemSwordMod("tuto_sword", SWORD_TOOL_TUTO);
     public static final Item TUTO_AXE = new ItemAxeMod("tuto_axe", TOOL_TUTO);
     
+    public static final Item HAMMER = new ItemHammer("hammer", TOOL_TUTO);
+   
     //Armors
     public static final Item TUTO_HELMET = new ArmorMod("tuto_helmet", ARMOR_TUTO, 1, EntityEquipmentSlot.HEAD);
     public static final Item TUTO_CHESTPLATE = new ArmorMod("tuto_chestplate", ARMOR_TUTO, 1, EntityEquipmentSlot.CHEST);

@@ -16,3 +16,5 @@ item.tuto_stick.name=Bâton de Tuto
 tile.tuto_block_special.name=Block de Tuto Spécial
 item.staff.name=Bâton du Pouvoir
 item.radar.name=Radar
+tile.cave_block.name=Cave Block
+item.hammer.name=Marteau
