@@ -18,3 +18,5 @@ item.staff.name=Power Staff
 item.radar.name=Radar
 tile.cave_block.name=Cave Block
 item.hammer.name=Hammer
+item.coal_apple.name=Coal Apple
+fluid.oil=Oil

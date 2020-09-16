@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.drastic.tuto.objects.blocks.BlockBasic;
+import com.drastic.tuto.objects.blocks.BlockFluid;
 import com.drastic.tuto.objects.blocks.BlockOreMod;
 import com.drastic.tuto.objects.blocks.BlockSpecial;
 import com.drastic.tuto.objects.blocks.CaveBlock;
@@ -11,6 +12,7 @@ import com.drastic.tuto.objects.blocks.Elevator;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraftforge.fluids.BlockFluidClassic;
 
 public class BlockInit
 {
@@ -23,4 +25,7 @@ public class BlockInit
    
     //Ores
     public static final Block ORE_TUTO = new BlockOreMod("ore_tuto", Material.ROCK);
+
+    //Fluids
+    public static final Block OIL = new BlockFluid("oil", FluidInit.OIL, Material.WATER);
 }

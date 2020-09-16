@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.drastic.tuto.objects.items.ItemBase;
+import com.drastic.tuto.objects.items.ItemCustomFood;
 import com.drastic.tuto.objects.items.ItemRadar;
 import com.drastic.tuto.objects.items.ItemSpecial;
 import com.drastic.tuto.objects.items.armor.ArmorMod;
@@ -52,5 +53,8 @@ public class ItemInit
     //Specials
     public static final Item TUTO_STICK = new ItemSpecial("tuto_stick");
     public static final Item RADAR = new ItemRadar("radar");
+    
+    //Foods
+    public static final Item COAL_APPLE = new ItemCustomFood("coal_apple", 8, true);
     
 }

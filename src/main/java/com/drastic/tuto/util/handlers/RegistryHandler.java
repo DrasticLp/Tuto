@@ -3,6 +3,8 @@ package com.drastic.tuto.util.handlers;
 import org.apache.http.impl.conn.tsccm.WaitingThread;
 
 import com.drastic.tuto.init.BlockInit;
+import com.drastic.tuto.init.EntityInit;
+import com.drastic.tuto.init.FluidInit;
 import com.drastic.tuto.init.ItemInit;
 import com.drastic.tuto.util.interfaces.IHasModel;
 import com.drastic.tuto.world.generation.WorldGenCustomOres;
@@ -80,10 +82,10 @@ public class RegistryHandler
     public static double getElevatorJump(EntityPlayer player)
     {
         int u = 0;
-        
+
         for(int i = (int)player.posY + 1; i < 256; i++)
         {
-            
+
             BlockPos pos = new BlockPos(player.posX, i, player.posZ);
 
             if(player.world.getBlockState(pos).getBlock() == BlockInit.ELEVATOR)
@@ -104,14 +106,22 @@ public class RegistryHandler
 
             if(player.world.getBlockState(new BlockPos(player.posX, player.posY - 1, player.posZ)).getBlock() == BlockInit.ELEVATOR)
             {
-                player.setPosition(player.posX, getElevatorJump(player) + 1 ,player.posZ);
+                player.setPosition(player.posX, getElevatorJump(player) + 1, player.posZ);
             }
         }
     }
 
     public static void preInitRegistries()
     {
+
+        FluidInit.registerFluids();
+        
         GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+        
+        EntityInit.registerEntities();
+        
+        RenderHandler.registerEntityRenders();
+        RenderHandler.registerCustomMeshesAndStates();
     }
 
     public static void initRegistries()

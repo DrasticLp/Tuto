@@ -7,6 +7,7 @@ import com.drastic.tuto.util.Reference;
 import com.drastic.tuto.util.handlers.RegistryHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -29,6 +30,8 @@ public class Main
     public static CommonProxy proxy;
     
     public static org.apache.logging.log4j.Logger logger;
+       
+    static {FluidRegistry.enableUniversalBucket();}
     
     @EventHandler
     public static void preInit(FMLPreInitializationEvent e)

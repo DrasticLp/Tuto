@@ -18,3 +18,5 @@ item.staff.name=Bâton du Pouvoir
 item.radar.name=Radar
 tile.cave_block.name=Cave Block
 item.hammer.name=Marteau
+item.coal_apple.name=Pomme en Charbon
+fluid.oil=Pétrole
