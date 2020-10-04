@@ -23,6 +23,8 @@ public class BlockInit
     public static final Block CAVE_BLOCK = new CaveBlock("cave_block", Material.ROCK);
     public static final Block ELEVATOR = new Elevator("elevator", Material.ROCK);
    
+    public static final Block CHAIN = new BlockBasic("chain", Material.IRON);
+    
     //Ores
     public static final Block ORE_TUTO = new BlockOreMod("ore_tuto", Material.ROCK);
 
